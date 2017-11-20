@@ -23,7 +23,7 @@ if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
 
 					sources: // Available sources.
 						[
-							{file: '%%url%%'}
+							{type: 'mp4', file: '%%url%%'}
 						]
 				}],
 

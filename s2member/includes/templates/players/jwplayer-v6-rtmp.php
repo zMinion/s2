@@ -23,8 +23,8 @@ if (realpath (__FILE__) === realpath ($_SERVER["SCRIPT_FILENAME"]))
 
 					sources: // Available sources.
 						[
-							{file: '%%streamer%%/%%prefix%%%%file%%'},
-							{file: '%%url%%'}
+							{type: 'rtmp', file: '%%streamer%%/%%prefix%%%%file%%'},
+							{type: 'mp4', file: '%%url%%'}
 						]
 				}],
 

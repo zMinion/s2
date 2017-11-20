@@ -1,0 +1,10 @@
+s2member.php
+includes/classes/files-in.inc.php	#because php_ini_file not working properly
+includes/templates/players/jwplayer-v6-rtmp-only.php
+includes/templates/players/jwplayer-v6-rtmp.php
+includes/templates/players/jwplayer-v6.php
+includes/mime-types.ini		#changing MOV type to video/mp4
+
+
+###check .htaccess - direct access to the thumbs are allowed
+../s2members-files/.htaccess
